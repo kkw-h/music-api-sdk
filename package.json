@@ -1,10 +1,11 @@
 {
   "name": "music-api-sdk",
   "version": "1.0.0",
-  "description": "网易云音乐和QQ音乐API接口SDK",
+  "description": "网易云音乐和QQ音乐API接口SDK - 统一的音乐搜索和歌词获取接口",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "music",
@@ -12,10 +13,28 @@
     "netease",
     "qq",
     "search",
-    "lyrics"
+    "lyrics",
+    "sdk",
+    "music-search",
+    "netease-cloud-music",
+    "qq-music"
   ],
-  "author": "",
+  "author": "hanxiaodi",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kkw-h/music-api-sdk.git"
+  },
+  "homepage": "https://github.com/kkw-h/music-api-sdk",
+  "bugs": {
+    "url": "https://github.com/kkw-h/music-api-sdk/issues"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "utils/",
+    "README.md"
+  ],
   "dependencies": {
     "axios": "^1.6.0",
     "crypto-js": "^4.2.0",
