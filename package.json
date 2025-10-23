@@ -1,6 +1,6 @@
 {
   "name": "music-api-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "网易云音乐和QQ音乐API接口SDK - 统一的音乐搜索和歌词获取接口",
   "main": "index.js",
   "scripts": {
